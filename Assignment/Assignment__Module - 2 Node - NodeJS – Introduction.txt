@@ -1,0 +1,26 @@
+				Module - 2 Node - NodeJS – Introduction
+
+Q1 :- What is Node.js? Where can you use it?
+Ans := It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services, but was originally designed with real-time, push-based architectures in mind. Every browser has its own version of a JS engine, and node.
+
+Q2 :- Explain callback in Node.js.
+Ans := Node. js callbacks are a special type of function passed as an argument to another function. They're called when the function that contains the callback as an argument completes its execution, and allows the code in the callback to run in the meantime. Callbacks help us make asynchronous calls.
+
+Q3 :- What are the advantages of using promises instead of callbacks?
+Ans := Using promises instead of callbacks comes with several advantages, making your coding experience smoother and more human-friendly.
+	:-Readability and Maintainability
+	:-Elimination of Callback Hell
+	:-Error Handling
+	:-Chaining and Sequencing
+	:-Simplicity in Design
+	:-Single Execution Path
+	:-Global Error Handling
+
+Q4 :- What is NPM?
+Ans := Node package manager (npm) is a package manager and a software register but it's also a place where developers can find, build and manage code packages. Right now, npm contains over 800,000 packages for various applications, from front-end and robotics to mobile apps.
+
+Q5 :- What are the modules in Node.js? Explain
+Ans := In Node. js, Modules are the blocks of encapsulated code that communicate with an external application on the basis of their related functionality. Modules can be a single file or a collection of multiple files/folders.
+
+Q6 :- Create TODO app using FS module with yargs (command line arguments).
+Ans :- 
