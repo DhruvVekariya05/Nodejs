@@ -1,0 +1,14 @@
+Q1. What is MongoDB.
+Ans :-
+:-MongoDB is a Document oriented, No SQL Database
+:-It is a document base database
+:-MongoDB is a replace the concept of Rows
+
+
+Q2. What is difference between mongo DB and SQL
+Ans:-
+MongoDB :
+	 MongoDB is a cross-platform,free, and open-source document-oriented database application. It is a NoSQL database tool to store the data in documents format.
+
+SQL :
+	SQL is a programming language for storing and processing information in a relational database. It is a Store a data in Table format.		
