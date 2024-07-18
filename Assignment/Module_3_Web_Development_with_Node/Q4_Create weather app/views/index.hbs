@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <form id="weather-form">
+        <select id="country" name="country">
+            <option value="">Select Country</option>
+        </select>
+        <select id="state" name="state">
+            <option value="">Select State</option>
+        </select>
+        <select id="city" name="city">
+            <option value="">Select City</option>
+        </select>
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather-result"></div>
+
+    <script src="/public/app.js"></script>
+</body>
+
+</html>
