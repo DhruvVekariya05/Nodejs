@@ -1,0 +1,46 @@
+{
+    "countries": [
+        {
+            "name":"India",
+            "id":1
+        },
+        {
+            "name":"Pakistan",
+            "id":2
+        }
+    ],
+    "states": [
+        {
+            "id": 1,
+            "country": 1,
+            "state": "Gujarat"
+        },
+        {
+            "id": 2,
+            "country": 1,
+            "state": "Rajsthan"
+        },
+        {
+            "id": 3,
+            "country": 2,
+            "state": "Lahor"
+        }
+    ],
+    "cities":[
+
+        {
+            "name":"c1",
+            "state_id":1
+        },
+        {
+            "name":"c2",
+            "state_id":3
+        },
+        {
+            "name":"c3",
+            "state_id":2
+        }
+
+ 
+    ]
+}

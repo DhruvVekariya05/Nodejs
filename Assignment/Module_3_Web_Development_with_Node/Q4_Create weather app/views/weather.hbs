@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Country, State, and City</title>
+</head>
+<body>
+    <center>
+        <h1>Select Country, State, and City</h1>
+
+        <label for="country">Country:</label>
+        <select id="DROPDOWN_COUNTRY" onchange="populateStates()">
+                <option value="">Select Country</option>
+        </select>
+        <br>
+
+        <label for="state">State:</label>
+        <select id="DROPDOWN_STATES" onchange="populateCity()">
+            <option value="">Select State</option>
+        </select>
+        <br>
+
+        <label for="city">City:</label>
+        <select id="DROPDOWN_CITIES">
+            <option value="">Select City</option>
+        </select>
+
+    </center>
+    <script src="weather.js"></script>
+</body>
+</html>
