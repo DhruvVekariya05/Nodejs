@@ -1,0 +1,11 @@
+Q1. What is Middleware in Express.js?
+Ans :- Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle. 
+
+
+Q2. What is json web tokens?
+Ans :-  => JSON Object which is used to securely transfer information over the web(between two parties).
+	=> It can be used for an authentication system and can also be used for information exchange. The token is mainly composed of header, payload, signature. These three parts are separated by dots(.)
+
+
+Q3. What is different between encryption and hashing.
+Ans :- Since encryption is two-way, the data can be decrypted so it is readable again. Hashing, on the other hand, is one-way, meaning the plaintext is scrambled into a unique digest, through the use of a salt, that cannot be decrypted.
